@@ -50,7 +50,7 @@ namespace RecogCaptcha
             //FiltersSequence seq = new FiltersSequence(gs, inverter, open, inverter, bc, inverter, open, cc, cor, bc, inverter);
             FiltersSequence seq = new FiltersSequence(gs);
             pictureBox.Image = seq.Apply(imagem);
-            pictureBox.Image.Save("D:\\Temp\\outImg.jpg");
+            //pictureBox.Image.Save("D:\\Temp\\outImg.jpg");
             string reconhecido = OCR((Bitmap)pictureBox.Image);
             return reconhecido;
         }

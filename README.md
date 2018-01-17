@@ -1,6 +1,6 @@
-# RecogCaptcha
+﻿# RecogCaptcha
 
-Técnica de reconhecimento (Quebra) de captchas utilizando o framework AForge.NET e o Tesseract
+Técnica de reconocimento de captchas utilizando framework AForge.NET y Tesseract
 
 [![Build status](https://ci.appveyor.com/api/projects/status/4xam2xbwkh3tpovm?svg=true)](https://ci.appveyor.com/project/andreluizsecco/recogcaptcha)
 [![Issues open](https://img.shields.io/github/issues-raw/andreluizsecco/recogcaptcha.svg)](https://github.com/andreluizsecco/recogcaptcha/issues)
